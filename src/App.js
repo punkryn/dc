@@ -33,7 +33,7 @@ function App() {
     for(let i = 0; i < 1; i++){
       try {
         // await iter(response2.data[i]);
-        await iter("/board/view/?id=dcbest&no=30366&page=1");
+        await iter("/board/view/?id=dcbest&no=30322&page=2");
 
       } catch(err) {
         console.dir(err);
